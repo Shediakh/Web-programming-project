@@ -28,48 +28,12 @@
             $list = explode(",",$file);
             for($i = 0; $i < sizeof($list); $i++) {
                 echo '<a href="#' . $list[$i] . '"><img class ="image" src="../images/' . $list[$i] . '.jpeg"></a>';
+                echo '<div id="' . $list[$i] . '" class="overlay"><div class="popup"><h2> &nbsp;</h2><a class="close" href="#">×</a><div class="content"><img class="image-zoom" src="../images/' . $list[$i] . '.jpeg"></div></div></div>';
             }
             ?>
 
-            
-        <!-- <a href="#image1"><img class ="image" src="../images/image 1.jpeg"></a>
-        <a href="#image2"><img class ="image" src="../images/image 2.jpeg"></a>
-        <a href="#image3"><img class ="image" src="../images/image 3.jpeg"></a>
-        <a href="#image4"><img class ="image" src="../images/image 4.jpeg"></a>
-        <a href="#image5"><img class ="image" src="../images/image 5.jpeg"></a>
-
-        <a href="#image6"><img class ="image" src="../images/image 6.jpeg"></a>
-        <a href="#image7"><img class ="image" src="../images/image 7.jpeg"></a>
-        <a href="#image8"><img class ="image" src="../images/image 8.jpeg"></a>
-        <a href="#image9"><img class ="image" src="../images/image 9.jpeg"></a>
-        <a href="#image10"><img class ="image" src="../images/image 10.jpeg"></a>
-        
-        <a href="#image11"><img class ="image" src="../images/image 11.jpeg"></a>
-        <a href="#image12"><img class ="image" src="../images/image 12.jpeg"></a>
-        <a href="#image13"><img class ="image" src="../images/image 13.jpeg"></a>
-        <a href="#image14"><img class ="image" src="../images/image 14.jpeg"></a>
-        <a href="#image15"><img class ="image" src="../images/image 15.jpeg"></a>
-
-        <a href="#image16"><img class ="image" src="../images/image 16.jpeg"></a>
-        <a href="#image17"><img class ="image" src="../images/image 17.jpeg"></a>
-        <a href="#image18"><img class ="image" src="../images/image 18.jpeg"></a>
-        <a href="#image19"><img class ="image" src="../images/image 19.jpeg"></a>
-        <a href="#image20"><img class ="image" src="../images/image 20.jpeg"></a>
-
-        <a href="#image21"><img class ="image" src="../images/image 21.jpeg"></a>
-        <a href="#image22"><img class ="image" src="../images/image 22.jpeg"></a>
-        <a href="#image23"><img class ="image" src="../images/image 23.jpeg"></a>
-        <a href="#image24"><img class ="image" src="../images/image 24.jpeg"></a>
-        <a href="#image25"><img class ="image" src="../images/image 25.jpeg"></a>
-
-        <a href="#image26"><img class ="image" src="../images/image 26.jpeg"></a>
-        <a href="#image27"><img class ="image" src="../images/image 27.jpeg"></a>
-        <a href="#image28"><img class ="image" src="../images/image 28.jpeg"></a>
-        <a href="#image29"><img class ="image" src="../images/image 29.jpeg"></a>
-        <a href="#image30"><img class ="image" src="../images/image 30.jpeg"></a> -->
         </div>
-        
-        <!--Overlays (for each image)-->
+<!--         
         <div id="image1" class="overlay">
             <div class="popup">
                 <h2> &nbsp;</h2>
@@ -356,4 +320,4 @@
         </div>
        
     </body>
-</html>
+</html> -->
