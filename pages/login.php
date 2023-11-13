@@ -17,7 +17,7 @@ while (($row = fgetcsv($file)) !== false) {
     }
 }
 
-fclose($csvFile);
+fclose($file);
 
 
 if ($loggedIn) {
