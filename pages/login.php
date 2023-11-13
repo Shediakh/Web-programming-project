@@ -3,11 +3,11 @@
 $username = $_POST["username"];
 $password = $_POST["password"];
 
-$csvFile = fopen("../csv/users.csv", "r");
+$file = fopen("../csv/users.csv", "r");
 
 $loggedIn = false;
 
-while (($row = fgetcsv($csvFile)) !== false) {
+while (($row = fgetcsv($file)) !== false) {
     $a_users[] = $row[0];
     $a_pass[] = $row[1];
     

@@ -148,13 +148,20 @@ div.gallery {
     float:left;
 }
 
-h2.bar-title {
-    /* text-align:center; */
-    /* margin-left:42.5%; */
+/* h2.bar-title {
+    text-align:center;
+    margin-left:42.5%;
     font-size:2vw;
     
     margin-top:-1%;
     display:inline-block;
+} */
+
+h2.bar-title {
+    margin-top:-3%;
+    font-size:2vw;
+    display:block;
+    text-align: center;
 }
 
 nav ul a {

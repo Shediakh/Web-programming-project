@@ -1,6 +1,6 @@
 <html>
     <head>
-        <link rel="stylesheet" href="css/my_styles.css"> 
+        <link rel="stylesheet" href="css/home.css"> 
         <link rel="stylesheet" href="css/icons.css"> 
         <title>
             Login
@@ -10,7 +10,7 @@
         <div class="title">
             <span>Login</h1>
         </div>        
-        
+
             <form action="pages/login.php" method="POST" id="login-form">
                 <label for="username">User Name</label>
                 <br>
@@ -20,9 +20,8 @@
                 <br>
                 <input type="password" name="password" id="password">
                 <br>
-                <input type="button" value="Login" onclick="login()">
-                <input type="button" value="Cancel" onclick="cancel()">
-            <a href="pages/signup.html">Sign Up...</a>
+                <input type="button" value="Login" onclick="login()" id="login-button">
+            <p>Don't have an account? <a href="pages/signup.html">Sign Up</a></p>
         </div>
     
 <script>
@@ -35,10 +34,6 @@
             document.getElementById("login-form").submit();
         }
 
-    }
-    function cancel(){
-        document.getElementById("username").value="";
-        document.getElementById("username").value="";
     }
 </script>
 </body>
