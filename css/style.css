@@ -123,8 +123,7 @@ input[type="checkbox"]:hover {
     cursor:pointer;
 }
 
-input[type="checkbox"]:checked  +div + h2 +hr+ ul#drop {
-    transform:scale(10, 10);
+input[type="checkbox"]:checked  +div + h2+ div +hr+ ul#drop {
     display:contents;
 }
 .burger-wrapper {
@@ -236,4 +235,63 @@ div.welcome-wrapper {
 
 a.logout:hover {
     color:grey;
+}
+
+div.login-wrapper {
+    height:fit-content;
+    width:auto;  
+    /* background-color: red; */
+    display:block;
+    text-align: center;
+}
+
+/* form#login-form {
+    display:inline;
+} */
+
+p.signup-prompt {
+    display:inline;
+}
+
+/* h1.login-title {
+    display:inline;
+} */
+
+.submit-button {
+    padding: 8px;
+    background: rgb(43, 43, 43);
+    color: white;
+    border: 1px solid;
+    cursor: pointer;
+    width:205px;
+    border-radius: 3px;
+}
+
+input.text-field {
+    border-radius: 3px;
+    height: 25px;
+    font-size: 15px;
+    border: 1px solid rgb(43, 43, 43);
+    padding: 5px;
+    margin-top:1px;
+    margin-bottom:10px
+}
+
+div.signup-wrapper {
+    height:fit-content;
+    width:auto;  
+    /* background-color: red; */
+    display:block;
+    text-align: center;
+}
+
+input#date-of-birth {
+    border-radius: 3px;
+    height: 25px;
+    font-size: 15px;
+    border: 1px solid rgb(43, 43, 43);
+    padding: 5px;
+    margin-top:1px;
+    margin-bottom:10px;
+    width:205px;
 }

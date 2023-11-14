@@ -16,8 +16,8 @@
           <div class="burger-wrapper"><img src="../images/burger.png" class="burger-img"></div>
             <h2 class="bar-title">Gallery</h2>
             <div class="welcome-wrapper">
-            <h2 class="welcome">Welcome <?php echo $_SESSION["username"];?>!</h2>
-            <a class="logout" href="logout.php">Logout</a>
+                <h2 class="welcome">Welcome <?php echo $_SESSION["username"];?>!</h2>
+                <a class="logout" href="logout.php">Logout</a>
             </div>
             <hr>
             <ul id="drop">

@@ -1,40 +1,38 @@
 <html>
     <head>
-        <link rel="stylesheet" href="css/style.css"> 
+        <link rel="stylesheet" href="../css/style.css"> 
         <title>
             Login
         </title>
     </head>
-    <body>
-        <div class="title">
+    <body>       
+            <div class="signup-wrapper">
             <h1>Sign up</h1>
-        </div>        
-
             <form action="signup.php" method="POST" id="signup-form">
                 <label for="username">Username</label>
                 <br>
-                <input type="text" name="username" id="username">
+                <input type="text" name="username" id="username" class="text-field">
                 <br>
                 <label for="password">Password</label>
                 <br>
-                <input type="password" name="password" id="password">
+                <input type="password" name="password" id="password" class="text-field">
                 <br>
                 <label for="confirm-password">Confirm password</label>
                 <br>
-                <input type="password" name="confirm-password" id="confirm-password">
+                <input type="password" name="confirm-password" id="confirm-password" class="text-field">
                 <br>
                 <label for="first-name">First name</label>
                 <br>
-                <input type="text" name="first-name" id="first-name">
+                <input type="text" name="first-name" id="first-name" class="text-field">
                 <br>
                 <label for="middle-name">Middle name</label>
                 <br>
-                <input type="text" name="middle-name" id="middle-name">
+                <input type="text" name="middle-name" id="middle-name" class="text-field">
                 <br>
                 <label for="last-name">Last name</label>
                 <br>
-                <input type="text" name="last-name" id="last-name">
-                <br><br>
+                <input type="text" name="last-name" id="last-name" class="text-field">
+                <br>
                 <input type="radio" name="sex" checked id="male" value="m">
                 <label for="male">Male</label>
                 <input type="radio" name="sex" id="female" value="f">
@@ -45,7 +43,7 @@
                 <input type="date" name="date-of-birth" id="date-of-birth">
                 <br><br>
                 
-                <input type="button" value="Signup" onclick="signup()" id="login-button">
+                <input type="button" value="Signup" onclick="signup()" id="submit-button" class="submit-button">
             <p>Already have an account? <a href="../index.php">Login</a></p>
         </div>
     

@@ -220,11 +220,35 @@ input[type="checkbox"]:hover {
 
 }
 
-input[type="checkbox"]:checked  +div + h2 +hr+ ul#drop {
-    transform:scale(10, 10);
+input[type="checkbox"]:checked  +div + h2 + div + hr+ ul#drop {
     display:contents;
 }
 .burger-wrapper {
     width:10%;
     
+}
+
+h2.welcome {
+    display:inline;
+    
+}
+
+a.logout {
+    display:inline;
+    
+    margin-top:1%;
+    font-size:2vh;
+    text-decoration: none;
+    color:rgb(37, 37, 37);
+    text-decoration:underline;
+}
+
+div.welcome-wrapper {
+    display:block;
+    text-align: center;
+    /* margin-right:1%; */
+}
+
+a.logout:hover {
+    color:grey;
 }

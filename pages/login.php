@@ -8,9 +8,6 @@ $file = fopen("../csv/users.csv", "r");
 $loggedIn = false;
 
 while (($row = fgetcsv($file)) !== false) {
-    $a_users[] = $row[0];
-    $a_pass[] = $row[1];
-    
     if (($username == $row[0]) && ($password == $row[1])) {
         $loggedIn = true;
         break;
