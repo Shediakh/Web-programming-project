@@ -23,7 +23,7 @@ fclose($file);
 if ($loggedIn) {
     session_start();
     $_SESSION["username"] = $username;
-    header("location:homepage.html");
+    header("location:homepage.php");
 } else {
     echo '<script>alert("Incorrect username or password");';
     echo 'window.location.href="../index.php";</script>';

@@ -1,16 +1,12 @@
 <html>
     <head>
-        <link rel="stylesheet" href="css/home.css"> 
-        <link rel="stylesheet" href="css/icons.css"> 
+        <link rel="stylesheet" href="css/style.css"> 
         <title>
             Login
         </title>
     </head>
     <body>
-        <div class="title">
-            <span>Login</h1>
-        </div>        
-
+            <h1>Login</h1>
             <form action="pages/login.php" method="POST" id="login-form">
                 <label for="username">User Name</label>
                 <br>
@@ -27,7 +23,7 @@
 <script>
     function login(){
         var username = document.getElementById("username").value;
-        var password = document.getElementById("username").value;
+        var password = document.getElementById("password").value;
         if (username == ""|| password == ""){
             alert("Username or password missing");
         }else{

@@ -1,3 +1,10 @@
+<?php
+    session_start();
+    if (!isset($_SESSION["username"])){
+        header("location:../index.php");
+    }
+?>
+
 <html>
     <head>
         <title>Gallery web page</title>
@@ -8,16 +15,20 @@
             <input type="checkbox"> 
           <div class="burger-wrapper"><img src="../images/burger.png" class="burger-img"></div>
             <h2 class="bar-title">Gallery</h2>
+            <div class="welcome-wrapper">
+            <h2 class="welcome">Welcome <?php echo $_SESSION["username"];?>!</h2>
+            <a class="logout" href="logout.php">Logout</a>
+            </div>
             <hr>
             <ul id="drop">
                 <li>
-                    <a href="homepage.html">Home</a>
+                    <a href="homepage.php">Home</a>
                 </li>
                 <li>
-                    <a href="cv.html">CV</a>
+                    <a href="cv.php">CV</a>
                 </li>
                 <li>
-                    <a href="contact.html">Contact</a>
+                    <a href="contact.php">Contact</a>
                 </li>
             </ul>
         </nav>
