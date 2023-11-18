@@ -23,13 +23,13 @@
         <hr>
         <ul id="drop">
             <li>
-                <a href="homepage.html">Home</a>
+                <a href="homepage.php">Home</a>
             </li>
             <li>
                 <a href="gallery.php">Gallery</a>
             </li>
             <li>
-                <a href="contact.html">Contact</a>
+                <a href="contact.php">Contact</a>
             </li>
         </ul>
     </nav>
